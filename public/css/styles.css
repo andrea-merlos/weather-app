@@ -1,0 +1,75 @@
+body {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto
+    url(https://file%2B.vscode-resource.vscode-cdn.net/Users/andreamerlos/Downloads/n3-09-10-globals/web-server/public/img/me.png?version%3D1734143093137);
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+  /* margin: 0 auto; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+footer {
+  color: black;
+  border-top: 1px solid #ffffff;
+  margin-top: 16px;
+  padding: 16px 0;
+  text-align: center;
+  width: 100%;
+}
+
+header {
+  margin-top: 16px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 64px;
+  margin-bottom: 16px;
+}
+
+header a {
+  color: #888888;
+  margin-right: 16px;
+  text-decoration: none;
+}
+
+.portrait {
+  width: 250px;
+  margin: 0 auto;
+}
+
+input {
+  border: 1px solid pink;
+  padding: 8px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: pink;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  transition: background 0.5s ease;
+}
+
+button:hover {
+  background: #333333;
+}
